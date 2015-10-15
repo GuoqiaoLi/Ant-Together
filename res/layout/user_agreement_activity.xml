@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:text="1.在使用蚂蚁聚聚（以下简称为“本软件”）之前，请您务必认真阅读《蚂蚁聚聚服务条款》（以下合并称为“本条款”），特别是涉及许可及使用注意事项，免除或限制本软件责任的免责条款，对您的权利进行限制的条款，约定法律适用及争议解决方式的条款。如果您注册成为本软件用户，默认您理解并同意本条款。\n
+2.除非您同意本条款的所有条款，否则请停止使用本软件。我们保留随时修订本条款的权利，且无须另行事先通知您。本条款一旦发生变动，我们将会在此处公布重新修订后的本条款。请您注意及时查看本条款的最新适用版本。\n
+3.通过本软件，可以进行位置共享，如果您未同意，本软件不会将您的位置发送给任何人。\n
+4.除非您主动退出活动，否则在本软件开启和联网状态下您的位置会一直共享，为保证您的隐私安全，请您结束活动主动退出活动。\n
+5.由于本软件使用第三方地图定位，会存在一定的误差，因定位误差给您造成的任何损失，本软件不承担任何责任。\n
+6.请您勿在驾驶车辆的同时操作本软件，务必在确保安全的前提下使用本软件，以防发生交通事故或其他危险情况。否则，由此发声交通事故或其他任何问题的，由您本人承担一切责任。\n
+7.本软件提供的任何位置信息、路线信息等服务仅供您参考使用，请不要以此作为您行驶或出行的唯一依据，请您以实际的交通和道路状况为准。\n
+8.本软件在使用过程中可能会产生网络流量费用，例如进行在线定位、路线规划、导航、实时路况、下载离线地图等，该费用由您的相应网络服务提供商收取。\n
+9.未成年人应在法定监护人的陪同下使用本软件，请勿让未成年人独自使用本软件。\n
+10.本条款的解释权以及本软件的解释权归属于南京美之韵文化传媒有限公司所有。
+                "
+                android:textColor="@color/user_agreement"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

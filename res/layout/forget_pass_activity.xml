@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_bar_layout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/login_bg"
+            android:orientation="vertical"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入您注册的邮箱地址"
+                android:textColor="@color/invite_method_color"
+                android:textSize="@dimen/text_size_32" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/search_bar"
+                android:ellipsize="start"
+                android:imeOptions="actionGo"
+                android:singleLine="true"
+                android:textColor="@color/notice_font_color"
+                android:textColorHint="@color/notice_font_color"
+                android:textSize="@dimen/text_size_32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="我们会即时发送重置密码的链接到您邮箱"
+                android:textColor="@color/notice_font_color"
+                android:textSize="@dimen/text_size_28" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <include layout="@layout/loading_layout"/>
+
+</RelativeLayout>

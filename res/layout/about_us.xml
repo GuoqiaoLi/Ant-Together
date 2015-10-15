@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar_layout" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="71dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/guanyu" />
+    
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/word" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="V1.0 Beta"
+        android:textColor="@color/about_us"
+        android:textSize="@dimen/text_size_36" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_user_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户协议"
+                android:textColor="@color/title_bar"
+                android:textSize="@dimen/text_size_28" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="南京美之韵文化传媒有限公司"
+                android:textColor="@color/about_us"
+                android:textSize="@dimen/text_size_28" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

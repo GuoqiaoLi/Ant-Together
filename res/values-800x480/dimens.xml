@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- 字体大小适配 -->
+    <dimen name="text_size_36">16sp</dimen>
+    <dimen name="text_size_32">14sp</dimen>
+    <dimen name="text_size_28">12sp</dimen>
+    <dimen name="text_size_24">10sp</dimen>
+
+</resources>

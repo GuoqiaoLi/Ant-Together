@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text=""
+        android:textColor="@color/history_time"
+        android:textSize="@dimen/text_size_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/history_list_background"
+        android:orientation="vertical"
+        android:paddingBottom="9dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="7dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/history_start" />
+
+                    <TextView
+                        android:id="@+id/tv_history_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="江苏省南京市秣周东路9号中国无线谷"
+                        android:textColor="@color/history_list_start_color"
+                        android:textSize="@dimen/text_size_32" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/zhong" />
+
+                    <TextView
+                        android:id="@+id/tv_history_end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="江苏省南京市江宁区万达广场"
+                        android:textColor="@color/history_list_start_color"
+                        android:textSize="@dimen/text_size_32" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_look"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="查看"
+                android:textColor="@color/title_bar"
+                android:textSize="@dimen/text_size_32" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="centerCrop" />
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="centerCrop" />
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="centerCrop" />
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="centerCrop" />
+
+                <com.meizhiyun.mayi.utils.CircleImageView
+                    android:id="@+id/civ6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="35dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/renshu"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/history_list_num"
+                android:textSize="@dimen/text_size_24" />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="删除"
+                android:textColor="@color/history_list_num"
+                android:textSize="@dimen/text_size_28" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

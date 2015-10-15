@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bar">#00b5ca</color>
+    <color name="white">#FFFFFF</color>
+    <color name="civ_border">#33FFFFFF</color>
+    <color name="edit_color">#CCFFFFFF</color>
+    <!-- 邀请页面 -->
+    <color name="login_bg">#eeeeee</color>
+    <color name="notice_font_color">#B6B6B6</color>
+    <color name="invite_method_color">#434343</color>
+    <color name="invite_horizontal_line">#DADBDF</color>
+    <color name="user_count_color">#019eeb</color>
+    <!-- 登录界面 -->
+    <color name="login_horizontal_line">#e0e8d3</color>
+    <!-- 注册页面 -->
+    <color name="register_font_color">#c7dccc</color>
+    <color name="register_horizontal_line">#dbe4c7</color>
+    <!-- 注册页面 -->
+    <color name="setting_horizontal_line">#cecece</color>
+    
+    <!-- 离线地图 -->
+    <color name="offline_notice_font">#6f6f6f</color>
+    <color name="offline_notice_backgroud">#e5e5e5</color>
+    
+    <!-- 邀请界面window -->
+    <color name="click">#1b6e89</color>
+    
+    <!-- 意见反馈 -->
+    <color name="text_count">#646464</color>
+    
+    <!-- 关于我们的版本号 -->
+    <color name="about_us">#535353</color>
+    
+    <!-- 用户协议 -->
+    <color name="user_agreement">#626262</color>
+    
+    <!-- 历史轨迹列表 -->
+    <color name="history_time">#505050</color>
+    <color name="history_list_background">#fafafa</color>
+    <color name="history_list_start_color">#5a5a5a</color>
+    <color name="history_list_num">#969696</color>
+    
+    <!-- 服务条款 -->
+    <color name="service_terms_title">#323232</color>
+    <color name="service_terms_horizontal_line">#d2d2d2</color>
+</resources>

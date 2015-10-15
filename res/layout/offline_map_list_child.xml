@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_offline_child"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/offline_notice_backgroud" >
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text=""
+        android:textColor="#0a0a0a"
+        android:textSize="@dimen/text_size_32" />
+
+    <TextView
+        android:id="@+id/tv_city_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tv_city"
+        android:text=""
+        android:textColor="@color/offline_notice_font"
+        android:textSize="@dimen/text_size_32" />
+
+    <com.meizhiyun.mayi.view.MyView
+        android:id="@+id/tv_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/download_btn_click"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="下载"
+        android:textColor="@color/title_bar"
+        android:textSize="@dimen/text_size_28" />
+
+</RelativeLayout>

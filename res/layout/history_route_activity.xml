@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee" >
+
+        <TextView
+            android:id="@+id/tv_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="您还没有历史轨迹,赶快出行吧!"
+            android:textColor="#A0A0A0"
+            android:textSize="@dimen/text_size_36" 
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/invite_horizontal_line"
+            android:dividerHeight="0.5dp" >
+        </ListView>
+
+        <include layout="@layout/loading_layout" />
+    </RelativeLayout>
+
+</LinearLayout>
